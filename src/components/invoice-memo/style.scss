@@ -1,0 +1,15 @@
+:local(.module) {
+  @include invoice-item-base;
+  border-top: none;
+  padding-top: 15px;
+  min-height: unset;
+
+  p.info {
+    color: $gray-500;
+  }
+
+  input.info {
+    border-top: 1px solid $gray-200;
+    margin-top: -15px;
+  }
+}

@@ -1,0 +1,15 @@
+:local(.module) {
+  .invoice-item-base {
+    @include invoice-item-base;
+
+    &.total {
+      margin-top: 30px;
+      padding-top: 20px;
+    }
+  }
+
+  .invoice-info-item-module {
+    border-top: none;
+    padding-top: 15px;
+  }
+}

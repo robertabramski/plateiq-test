@@ -1,0 +1,5 @@
+:local(.module) {
+  .invoice-item-base {
+    @include invoice-item-base;
+  }
+}

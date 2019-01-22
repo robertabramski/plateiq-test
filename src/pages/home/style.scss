@@ -1,0 +1,14 @@
+:local(.module) {
+  .comp {
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .5;
+    display: block;
+    position: absolute;
+    width: (2880px / 2);
+    height: (1500px / 2);
+    background: url('comp.png') no-repeat;
+    background-size: contain;
+  }
+}

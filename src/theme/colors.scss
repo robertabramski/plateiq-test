@@ -1,0 +1,56 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+$white: !default;
+$black: !default;
+
+// table-bg
+$gray-100: #fafafa;
+//button-bg, label-lockup-top-line
+$gray-200: #f2f2f2;
+//badge-outline, top-table-line
+$gray-300: #e5e5e5;
+//labels, badge-text, chat-placeholder-text, table-row-line, button-outline
+$gray-400: #bfbfbf;
+//btn-caret, sub-total, tax, table-tab-inactive, chat-icon, table-unit
+$gray-500: #7f7f7f;
+//table-head-txt, table-text
+$gray-600: #333333;
+//gen-text
+$gray-700: $black;
+$gray-800: $black;
+$gray-900: $black;
+
+$light: $gray-200;
+$dark: #435e75;
+$primary: #2095f3;
+$primary-dark: #1c84d9;
+$secondary: !default;
+$success: #00c6a2;
+$info: !default;
+$warning: !default;
+$danger: #eb5262;
+
+$theme-colors: (
+  'light': $light,
+  'dark': $dark,
+  'primary': $primary,
+  'primary-dark': $primary-dark,
+  'secondary': $secondary,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'gray-100': $gray-100,
+  'gray-200': $gray-200,
+  'gray-300': $gray-300,
+  'gray-400': $gray-400,
+  'gray-500': $gray-500,
+  'gray-600': $gray-600,
+  'gray-700': $gray-700,
+  'gray-800': $gray-800,
+  'gray-900': $gray-900
+);
+
+$body-bg: $dark;
+$body-color: $black;

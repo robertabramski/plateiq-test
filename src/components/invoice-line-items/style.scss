@@ -1,0 +1,17 @@
+:local(.module) {
+  font-size: 12px;
+  font-weight: bolder;
+
+  a.nav-link {
+    margin-right: 30px;
+    border-width: 0;
+
+    &.active {
+      border-bottom: 2px solid $primary;
+    }
+
+    &:not(.active) {
+      color: $gray-500;
+    }
+  }
+}

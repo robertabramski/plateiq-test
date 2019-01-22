@@ -1,0 +1,9 @@
+:local(.module) {
+  span.badge {
+    @include lil-label;
+
+    padding: 5px 10px;
+    border: 1px solid $gray-300;
+    background-color: $white;
+  }
+}

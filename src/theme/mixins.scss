@@ -1,0 +1,18 @@
+@mixin lil-label() {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 9px;
+  color: $gray-400;
+}
+
+@mixin invoice-item-base() {
+  width: 100%;
+  border-top: 1px solid $gray-200;
+  padding-top: 5px;
+  min-height: 72px;
+
+  .info {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+}
